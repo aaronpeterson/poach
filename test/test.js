@@ -12,7 +12,7 @@ var usernameAvailable = function(username, cb) {
 
 exports.testPoach = function (test) {
 	Poach.user("billy", usernameAvailable, function(err, newUsername) {
-		test.equal(newUsername, 'billy3', 'New username should be billy2');
+		test.equal(newUsername, 'billy3', 'New username should be billy3');
 	});
 
 	Poach.user("Carl Weathers", usernameAvailable, function(err, newUsername) {
