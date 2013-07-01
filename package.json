@@ -1,0 +1,16 @@
+{
+  "name": "poach",
+  "version": "0.1",
+  "description": "Poach was created to adopt users locally from other oauth/networks.  It works well with PassportJS.  You provide the username seed and anti-collission function and Poach gives you the closest locally available username.",
+  "homepage": "http://github.com",
+  "scripts": {
+    "test": "NODE_ENV=test ./node_modules/.bin/nodeunit test/*.js"
+  },
+  "devDependencies": {
+    "nodeunit": "latest"
+  },
+  "main": "./lib/poach",
+  "engines": {
+    "node": ">= 0.4.0"
+  }
+}
