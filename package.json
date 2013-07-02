@@ -18,7 +18,7 @@
     "users"
   ],
   "dependencies": {
-
+    "oauth": "0.9.x"
   },
   "devDependencies": {
     "nodeunit": "latest"
