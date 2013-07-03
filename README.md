@@ -1,6 +1,6 @@
 #Poach
 
-Poach is a work in progress and currently just provides anti-collision on usernames seeded by PassportJS oauth strategies.
+Poach is a work in progress and currently only provides anti-collision on usernames seeded by PassportJS oauth strategies. Don't use this right now. It's sort of in proof-of-concept stage.  I needed something that would extend PassportJS beyond authentication.
 
 For example, in a Passport Twitter strategy implementation, you might seed Poach.user() with Passport's profile.username.
 
